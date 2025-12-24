@@ -1,0 +1,59 @@
+# Core Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+pillow>=9.5.0
+opencv-python>=4.7.0
+
+# Transformers & Diffusers
+transformers>=4.30.0
+diffusers>=0.20.0
+accelerate>=0.20.0
+safetensors>=0.3.0
+
+# Computer Vision & Image Processing
+timm>=0.9.0
+scikit-image>=0.20.0
+scikit-learn>=1.2.0
+
+# NLP & Embeddings
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4  # Use faiss-gpu if CUDA available
+langchain>=0.0.200
+
+# 3D Processing
+trimesh>=3.20.0
+hy3dgen>=0.1.0  # For Hunyuan3D
+
+# Model Fine-tuning
+peft>=0.4.0
+bitsandbytes>=0.41.0
+
+# Data Processing
+pandas>=2.0.0
+datasets>=2.12.0
+huggingface-hub>=0.15.0
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0
+notebook>=6.5.0
+ipywidgets>=8.0.0
+
+# API & Web (if needed)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+gradio>=3.35.0  # For demo interfaces
+
+# Optional: GPU acceleration
+# Uncomment if using CUDA
+# faiss-gpu>=1.7.4
+
+# Development
+pytest>=7.3.0
+black>=23.3.0
+flake8>=6.0.0
+
