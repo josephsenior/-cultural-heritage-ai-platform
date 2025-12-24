@@ -10,6 +10,8 @@
 
 The **Cultural Heritage AI Platform** is an integrated system that combines state-of-the-art AI technologies to address multiple challenges in art and cultural heritage preservation. This platform provides tools for authenticating artwork, generating artistic content, restoring damaged monuments, converting 2D images to 3D models, and answering art-related questions using Retrieval-Augmented Generation (RAG).
 
+**Note**: This repository contains 5 of the 6 platform modules. The "Fake vs Real Art Classification" module is maintained separately and not included in this repository.
+
 ### 🎯 Key Capabilities
 
 - **🔍 Art Authentication**: Distinguish between AI-generated and human-created artwork with 91% accuracy
@@ -52,6 +54,8 @@ For detailed architecture documentation, see [ARCHITECTURE.md](docs/ARCHITECTURE
 ---
 
 ## 📦 Platform Modules
+
+**Total Platform Modules**: 6 (5 included in this repository)
 
 ### 1. 🔍 Art Authentication Module
 **Location**: `Art-Authentication-Sport-Fake-From-Fake-AI-Generated-Art/`
@@ -133,6 +137,11 @@ Answers art-related questions using Retrieval-Augmented Generation with semantic
 - Museum visitor assistance
 - Art education platforms
 - Research and documentation
+
+### 6. 🎭 Fake vs Real Art Classification Module
+**Status**: Separate repository (not included in this platform)
+
+A specialized module for classifying fake vs. real artwork. This module is maintained independently and complements the other platform modules.
 
 ---
 

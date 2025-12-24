@@ -15,16 +15,19 @@ The platform follows a modular architecture where each module is independent yet
 │              Cultural Heritage AI Platform                │
 ├─────────────────────────────────────────────────────────┤
 │                                                           │
-│  5 Specialized Modules → Shared AI Infrastructure       │
+│  6 Specialized Modules → Shared AI Infrastructure       │
 │                                                           │
 │  • Art Authentication      → Vision Transformers         │
 │  • Image Generation        → Stable Diffusion           │
 │  • Heritage Restoration    → SD XL + LoRA               │
 │  • 2D to 3D Conversion     → Hunyuan3D                  │
 │  • RAG Q&A System         → Embeddings + LLMs           │
+│  • Fake vs Real Classif.  → (Separate Repository)       │
 │                                                           │
 └─────────────────────────────────────────────────────────┘
 ```
+
+**Note**: This repository contains 5 of the 6 modules. The "Fake vs Real Art Classification" module is maintained separately.
 
 ### Key Architectural Decisions
 
@@ -34,6 +37,8 @@ The platform follows a modular architecture where each module is independent yet
 4. **Extensibility**: Easy to add new modules or features
 
 ## Module Capabilities
+
+**Total Modules**: 6 (5 included in this repository)
 
 ### 1. 🔍 Art Authentication (91% Accuracy)
 - **Problem**: Distinguish AI-generated vs. human-created art
@@ -64,6 +69,11 @@ The platform follows a modular architecture where each module is independent yet
 - **Solution**: Retrieval-Augmented Generation with semantic search
 - **Impact**: Museum assistance, art education, research
 - **Innovation**: Multi-modal RAG with image generation integration
+
+### 6. 🎭 Fake vs Real Art Classification
+- **Status**: Separate repository (not included)
+- **Purpose**: Specialized classification of fake vs. real artwork
+- **Note**: Complements other platform modules but maintained independently
 
 ## Technical Highlights
 
@@ -125,26 +135,31 @@ The platform follows a modular architecture where each module is independent yet
    - Model development, training, and deployment
    - Data pipeline design
    - System architecture
+   - **6-module platform** demonstrating breadth
 
 2. **Research & Innovation**
    - Novel approaches to heritage restoration
    - RAG-enhanced generation
    - Multi-modal AI systems
+   - Multiple classification approaches
 
 3. **Production Mindset**
    - Scalable architecture
    - Performance optimization
    - Documentation and maintainability
+   - Modular design (modules can be separate or unified)
 
 4. **Domain Knowledge**
    - Understanding of cultural heritage challenges
    - Art and museum industry applications
    - Real-world problem solving
+   - Art authentication and verification
 
 5. **Technical Skills**
    - PyTorch, Transformers, Diffusers
    - Computer Vision, NLP, 3D Processing
    - MLOps and deployment considerations
+   - Multi-repository architecture management
 
 ## Project Structure
 
@@ -203,11 +218,12 @@ cultural-heritage-ai-platform/
 
 ### Key Talking Points
 
-- "Built a unified AI platform combining 5 specialized modules"
+- "Built a unified AI platform combining 6 specialized modules (5 in main repo)"
 - "Achieved 91% accuracy in art authentication using Swin Transformers"
 - "Implemented multi-modal heritage restoration with 40K+ training samples"
 - "Designed RAG-enhanced image generation with semantic search"
 - "Created production-ready system with comprehensive documentation"
+- "Architected modular platform with separate repositories for specialized modules"
 
 ## Conclusion
 

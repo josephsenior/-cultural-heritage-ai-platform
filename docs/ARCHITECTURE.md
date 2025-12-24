@@ -4,6 +4,8 @@
 
 The Cultural Heritage AI Platform is designed as a modular system where each component addresses a specific challenge in art and cultural heritage preservation. The platform leverages shared AI infrastructure while maintaining module independence.
 
+**Note**: This repository contains 5 of the 6 platform modules. The "Fake vs Real Art Classification" module is maintained separately and not included in this repository.
+
 ## System Architecture
 
 ```

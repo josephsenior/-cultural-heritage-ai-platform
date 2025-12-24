@@ -4,7 +4,7 @@
 **Recommended: Use this in the GitHub repository "Description" field**
 
 ```
-🎨 AI-powered platform for art authentication (91% accuracy), artistic image generation, heritage restoration, 2D→3D conversion, and art Q&A. Built with PyTorch, Stable Diffusion XL, Vision Transformers, and RAG.
+🎨 AI-powered platform for art authentication (91% accuracy), artistic image generation, heritage restoration, 2D→3D conversion, and art Q&A. Part of a 6-module cultural heritage AI ecosystem. Built with PyTorch, Stable Diffusion XL, Vision Transformers, and RAG.
 ```
 
 **Alternative shorter version:**
@@ -52,7 +52,7 @@ neural-networks
 
 ### Full Description
 
-**Cultural Heritage AI Platform** - A comprehensive, production-ready AI system combining five specialized modules to address challenges in art authentication, generation, restoration, and cultural heritage preservation.
+**Cultural Heritage AI Platform** - A comprehensive, production-ready AI system combining six specialized modules (5 included in this repo) to address challenges in art authentication, generation, restoration, and cultural heritage preservation.
 
 **Key Features:**
 - 🔍 **Art Authentication**: 91% accuracy using Swin Transformers to distinguish AI vs. human art
@@ -60,6 +60,7 @@ neural-networks
 - 🏛️ **Heritage Restoration**: Multi-modal SD XL restoration of damaged monuments (40K+ training samples)
 - 📐 **2D→3D Conversion**: Hunyuan3D-based statue digitization for AR/VR applications
 - 💬 **Art Q&A System**: Intelligent RAG system for art-related questions
+- 🎭 **Fake vs Real Classification**: Separate module (maintained independently)
 
 **Tech Stack:** PyTorch, Stable Diffusion XL, Vision Transformers, LoRA/PEFT, FAISS, Sentence Transformers, Hunyuan3D
 
@@ -73,12 +74,13 @@ neural-networks
 ```
 🎨 Just open-sourced my Cultural Heritage AI Platform!
 
-5 AI modules in one unified system:
+6 AI modules in unified ecosystem (5 in main repo):
 ✅ Art authentication (91% accuracy)
 ✅ Artist-style image generation  
 ✅ Monument restoration (40K+ samples)
 ✅ 2D→3D conversion
 ✅ Intelligent art Q&A
+✅ Fake vs real classification (separate repo)
 
 Built with PyTorch, Stable Diffusion XL, Vision Transformers & RAG
 
@@ -122,7 +124,7 @@ AI platform for art authentication, image generation, cultural heritage restorat
 
 ### Description Field:
 ```
-🎨 AI-powered platform for art authentication (91% accuracy), artistic image generation, heritage restoration, 2D→3D conversion, and art Q&A. Built with PyTorch, Stable Diffusion XL, Vision Transformers, and RAG.
+🎨 AI-powered platform for art authentication (91% accuracy), artistic image generation, heritage restoration, 2D→3D conversion, and art Q&A. Part of a 6-module cultural heritage AI ecosystem. Built with PyTorch, Stable Diffusion XL, Vision Transformers, and RAG.
 ```
 
 ### Website (if you have one):
@@ -160,6 +162,6 @@ AI platform for art authentication, image generation, cultural heritage restorat
 
 **About Section:**
 ```
-Unified AI platform combining 5 specialized modules for cultural heritage: art authentication (91% acc), image generation, monument restoration, 2D→3D conversion, and intelligent Q&A. Production-ready with comprehensive documentation.
+Unified AI platform combining 6 specialized modules (5 in this repo) for cultural heritage: art authentication (91% acc), image generation, monument restoration, 2D→3D conversion, intelligent Q&A, and fake vs real classification (separate repo). Production-ready with comprehensive documentation.
 ```
 
